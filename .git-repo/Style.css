@@ -1,0 +1,67 @@
+.header {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 1% 0;
+    border: 1px solid gray;
+    user-select: none;
+    
+}
+
+.green {
+    background-color: green;
+    
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: rgb(189, 189, 42);
+}
+
+.dark {
+    background-color: black;
+}
+
+.pink {
+    background-color: palevioletred;
+}
+
+.body {
+    margin-left: 20px;
+}
+
+.card {
+    width: 500px;
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    user-select: none;
+}
+
+.innercard {
+    padding: 10px;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.horisontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.gridlayout {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 250px);
+  gap: 10px;
+  
+}
